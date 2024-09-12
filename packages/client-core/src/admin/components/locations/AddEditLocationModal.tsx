@@ -63,6 +63,7 @@ export default function AddEditLocationModal(props: { location?: LocationType; s
 
   const params = {
     query: {
+      action: 'admin',
       id: locationID.value
     }
   }
